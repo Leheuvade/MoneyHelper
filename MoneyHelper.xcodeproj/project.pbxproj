@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		E233EB2F216E13D300712BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233EB2E216E13D300712BF5 /* AppDelegate.swift */; };
 		E233EB31216E13D300712BF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233EB30216E13D300712BF5 /* ViewController.swift */; };
-		E233EB34216E13D300712BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E233EB32216E13D300712BF5 /* Main.storyboard */; };
 		E233EB36216E13D300712BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E233EB35216E13D300712BF5 /* Assets.xcassets */; };
 		E233EB39216E13D300712BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E233EB37216E13D300712BF5 /* LaunchScreen.storyboard */; };
 		E233EB44216E13D300712BF5 /* MoneyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233EB43216E13D300712BF5 /* MoneyHelperTests.swift */; };
+		E24249D6216E2B6F00A356E0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E24249D5216E2B6F00A356E0 /* ViewController.xib */; };
+		E2660228217617B8006E8C95 /* NanumGothic-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2660227217617B8006E8C95 /* NanumGothic-ExtraBold.ttf */; };
+		E27364242175F65200C383B0 /* ButtonNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27364232175F65200C383B0 /* ButtonNumberView.swift */; };
+		E273642621760E4200C383B0 /* String+Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E273642521760E4200C383B0 /* String+Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		E233EB2B216E13D300712BF5 /* MoneyHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E233EB2E216E13D300712BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E233EB30216E13D300712BF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E233EB33216E13D300712BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E233EB35216E13D300712BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E233EB38216E13D300712BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E233EB3A216E13D300712BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E233EB3F216E13D300712BF5 /* MoneyHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E233EB43216E13D300712BF5 /* MoneyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHelperTests.swift; sourceTree = "<group>"; };
 		E233EB45216E13D300712BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24249D5216E2B6F00A356E0 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		E2660227217617B8006E8C95 /* NanumGothic-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NanumGothic-ExtraBold.ttf"; path = "../../../../Downloads/Nanum_Gothic/NanumGothic-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E27364232175F65200C383B0 /* ButtonNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonNumberView.swift; sourceTree = "<group>"; };
+		E273642521760E4200C383B0 /* String+Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Converter.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +83,15 @@
 		E233EB2D216E13D300712BF5 /* MoneyHelper */ = {
 			isa = PBXGroup;
 			children = (
+				E2660227217617B8006E8C95 /* NanumGothic-ExtraBold.ttf */,
 				E233EB2E216E13D300712BF5 /* AppDelegate.swift */,
 				E233EB30216E13D300712BF5 /* ViewController.swift */,
-				E233EB32216E13D300712BF5 /* Main.storyboard */,
 				E233EB35216E13D300712BF5 /* Assets.xcassets */,
 				E233EB37216E13D300712BF5 /* LaunchScreen.storyboard */,
 				E233EB3A216E13D300712BF5 /* Info.plist */,
+				E24249D5216E2B6F00A356E0 /* ViewController.xib */,
+				E27364232175F65200C383B0 /* ButtonNumberView.swift */,
+				E273642521760E4200C383B0 /* String+Converter.swift */,
 			);
 			path = MoneyHelper;
 			sourceTree = "<group>";
@@ -179,9 +188,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2660228217617B8006E8C95 /* NanumGothic-ExtraBold.ttf in Resources */,
 				E233EB39216E13D300712BF5 /* LaunchScreen.storyboard in Resources */,
+				E24249D6216E2B6F00A356E0 /* ViewController.xib in Resources */,
 				E233EB36216E13D300712BF5 /* Assets.xcassets in Resources */,
-				E233EB34216E13D300712BF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +211,8 @@
 			files = (
 				E233EB31216E13D300712BF5 /* ViewController.swift in Sources */,
 				E233EB2F216E13D300712BF5 /* AppDelegate.swift in Sources */,
+				E27364242175F65200C383B0 /* ButtonNumberView.swift in Sources */,
+				E273642621760E4200C383B0 /* String+Converter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +235,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E233EB32216E13D300712BF5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E233EB33216E13D300712BF5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E233EB37216E13D300712BF5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -353,12 +357,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FB8X39CZL8;
 				INFOPLIST_FILE = MoneyHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.louise.listApp.MoneyHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.louise.moneyhelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -368,12 +374,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FB8X39CZL8;
 				INFOPLIST_FILE = MoneyHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.louise.listApp.MoneyHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.louise.moneyhelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
